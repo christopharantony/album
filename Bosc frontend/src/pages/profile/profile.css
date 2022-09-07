@@ -1,0 +1,77 @@
+.main {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    height: 78vh;
+}
+
+.main > .LoginLabel {
+    margin: 1.5rem;
+    width: 80%;
+}
+
+.LoginLabel {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid gray;
+    font-size: 1.1rem;
+}
+
+.saveBtn {
+    border: .3rem solid royalblue;
+    border-radius: .3rem;
+    display: block;
+    position: relative;
+    padding: 0.7em 2.4em;
+    font-size: 18px;
+    background: white;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    color: royalblue;
+    font-family: inherit;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.saveBtn:hover {
+    border-color: #2751cd;
+    background: #2751cd;
+    color: white;
+}
+
+.albumButton {
+    float: right;
+    cursor: pointer;
+    background-color: rgb(40, 153, 178);
+    color: wheat;
+    margin: .5rem 1rem;
+    border: none;
+    font-size: 1rem;
+    padding: .3rem;
+}
+
+.deleteBtn {
+    border: none;
+    margin-left: 13rem;
+    border: .3rem solid red;
+    border-radius: .3rem;
+    position: relative;
+    padding: 0.7em 2.4em;
+    font-size: 18px;
+    background: white;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    color: red;
+    font-family: inherit;
+    font-weight: 500;
+    transition: .3s;
+    
+}
+
+.deleteBtn:hover{
+    background: red;
+    color: white;
+}

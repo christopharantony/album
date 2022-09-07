@@ -1,0 +1,42 @@
+.albumContainer{
+    height: 89.6vh;
+    overflow: hidden;
+}
+.albumDiv {
+    height: 25rem;
+    margin: auto;
+    width: 25%;
+    border: 2px solid;
+    margin-top: 3rem;
+    background-image: "https://unsplash.com/s/photos/photo";
+}
+.Albumtitle{
+    font-size:2rem;
+    font-family: 'Exo',sans-serif;
+    padding: 1rem;
+    color: royalblue;
+}
+
+.AlbumList{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.MyAlbum{
+    display: inline;
+}
+.AlbumList::-webkit-scrollbar{
+    display: none;
+}
+.albumPhotos{
+    width: 25rem;
+    height: 20rem;
+    padding: 1rem;
+    transition: .2s;
+}
+
+.albumPhotos:hover {
+    transition: .5s cubic-bezier(0,1.2,.2,1.5);
+    transform: scale(1.2);
+}
