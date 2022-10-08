@@ -2,6 +2,8 @@
 
 A simple, fast and light gallery app  
 
+[Docs about task](https://github.com/christopharantony/album/files/9738820/Mern.Stack.Assignment.docx)
+
 ## Frontend Installation
 
 Use the package manager [npm](https://www.npmjs.com/) to install dependencies.
@@ -55,6 +57,9 @@ npm start
 
 
 ```
+
+
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
